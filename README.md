@@ -1,12 +1,30 @@
-# React + Vite
+# 🌗 Theme Changer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalistic and responsive theme toggler built with React. Users can seamlessly switch between light and dark modes. This app uses React Context API for global state management and a custom `useTheme` hook for better modularity and reusability.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Toggle between Light and Dark themes
+- Custom React Hook `useTheme`
+- Global theme state using React Context
+- Applies theme styles dynamically
+- Clean and scalable code architecture
+- Fully responsive UI
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- Tailwind CSS or custom CSS (based on your implementation)
+- React Context API
+- Custom Hooks
+
+## 🧠 Hooks Used
+
+- `useState`: For managing internal states
+- `useContext`: For accessing theme state globally
+- `createContext`: For creating the theme context
+- `useTheme` (custom hook): Encapsulates theme logic
+
+## 📁 Folder Structure
+
