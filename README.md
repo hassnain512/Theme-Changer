@@ -26,5 +26,4 @@ A minimalistic and responsive theme toggler built with React. Users can seamless
 - `createContext`: For creating the theme context
 - `useTheme` (custom hook): Encapsulates theme logic
 
-## 📁 Folder Structure
 
